@@ -1,0 +1,24 @@
+{
+  "name": "disgram",
+  "version": "1.0.2",
+  "description": "A Discord<>Telgram integration.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Discord",
+    "telegram"
+  ],
+  "author": "dhanushlnaik",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "node-fetch": "^3.3.1",
+    "telegram-bot-api": "^2.0.1"
+  }
+}
